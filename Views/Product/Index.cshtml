@@ -1,0 +1,10 @@
+@model ErrorViewModel
+@{
+    ViewData["Title"] = "Products Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Ürünler sayfamız... Request Id : @Model.RequestId</a>.</p>
+    <input type="button" asp-route-for="Product/Create" value="Ekle">
+</div>

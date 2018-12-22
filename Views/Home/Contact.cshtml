@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Contact Us";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>please contact us use this email:</p>
+<input type="button" id="myButton" class="ui-button" value="ClickMe" />
+
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+        $('#myButton').button().click(function(){
+            alert('merhaba ');
+        });
+  } );
+
+
+</script>
+    
+}
